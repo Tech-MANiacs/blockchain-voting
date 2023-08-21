@@ -1,0 +1,61 @@
+.loginBtn{
+  background-color: #1D267D;
+  font-weight: bold;
+}
+
+.mainTitle {
+  font-family: 'Braah One', sans-serif;
+}
+.forgot{
+  color : #b77af5;
+  text-align: center;
+  margin-top: 25px;
+}
+.loginBtn:hover{
+  background-color: #5C469C;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.loginImg {
+  background-image: url("login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  height: 500px;
+ margin-left: 60px
+}
+.login-layout-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100vh;
+
+  .left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .back:hover{
+      color : #0C134F;
+      font-weight: bold;
+    }
+    .title-green {
+      color: #1D267D;
+    }
+
+    .second{
+      margin-top: 20px;
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

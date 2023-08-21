@@ -1,0 +1,39 @@
+.profile-wrapper {
+  @include box-shadow;
+  padding: 50px;
+  padding-left: 90px;
+  display: grid;
+  border-radius: 20px;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 100px;
+
+  .left-panel {
+    text-align: center;
+
+    .person-icon {
+      * {
+        font-size: 8rem;
+        color: $theme-primary;
+      }
+    }
+
+    .username {
+      padding: 5px 0 25px 0;
+      font-size: xx-large;
+      font-family: 'Poppins';
+      font-weight: 500;
+    }
+  }
+
+  .right-panel {
+
+    .skeleton {
+      height: 30px;
+      width: 200px;
+      background: $theme-gray;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+  }
+}
