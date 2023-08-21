@@ -1,0 +1,27 @@
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.waiting-wrapper {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .cog {
+    * {
+      font-size: 20rem;
+      color: $theme-primary;
+      padding-top: 18px;
+      margin: 0;
+    }
+  }
+
+  .wait{
+    font-family: 'Poppins';
+    font-weight: bold;
+  }
+}
